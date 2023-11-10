@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		D10BCA742AF9BA400069740B /* Banking_UIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10BCA732AF9BA400069740B /* Banking_UIApp.swift */; };
-		D10BCA762AF9BA400069740B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10BCA752AF9BA400069740B /* ContentView.swift */; };
+		D10BCA762AF9BA400069740B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10BCA752AF9BA400069740B /* HomeView.swift */; };
 		D10BCA782AF9BA410069740B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D10BCA772AF9BA410069740B /* Assets.xcassets */; };
 		D10BCA7B2AF9BA410069740B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D10BCA7A2AF9BA410069740B /* Preview Assets.xcassets */; };
+		D19336082AFD819600BD74E3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19336072AFD819600BD74E3 /* CardView.swift */; };
+		D193360C2AFD84F300BD74E3 /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = D193360B2AFD84F300BD74E3 /* BankAccount.swift */; };
+		D193360E2AFD916200BD74E3 /* NameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D193360D2AFD916200BD74E3 /* NameView.swift */; };
+		D19336102AFD99F500BD74E3 /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D193360F2AFD99F500BD74E3 /* BalanceView.swift */; };
+		D19336132AFDABF100BD74E3 /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19336122AFDABF100BD74E3 /* Transactions.swift */; };
+		D19336152AFDACFD00BD74E3 /* AccountDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19336142AFDACFD00BD74E3 /* AccountDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D10BCA702AF9BA400069740B /* Banking-UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Banking-UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D10BCA732AF9BA400069740B /* Banking_UIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banking_UIApp.swift; sourceTree = "<group>"; };
-		D10BCA752AF9BA400069740B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D10BCA752AF9BA400069740B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D10BCA772AF9BA410069740B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D10BCA7A2AF9BA410069740B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D19336072AFD819600BD74E3 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		D193360B2AFD84F300BD74E3 /* BankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
+		D193360D2AFD916200BD74E3 /* NameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameView.swift; sourceTree = "<group>"; };
+		D193360F2AFD99F500BD74E3 /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
+		D19336122AFDABF100BD74E3 /* Transactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transactions.swift; sourceTree = "<group>"; };
+		D19336142AFDACFD00BD74E3 /* AccountDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +63,9 @@
 		D10BCA722AF9BA400069740B /* Banking-UI */ = {
 			isa = PBXGroup;
 			children = (
+				D193360A2AFD84E400BD74E3 /* Controls */,
+				D19336092AFD84D300BD74E3 /* Views */,
 				D10BCA732AF9BA400069740B /* Banking_UIApp.swift */,
-				D10BCA752AF9BA400069740B /* ContentView.swift */,
 				D10BCA772AF9BA410069740B /* Assets.xcassets */,
 				D10BCA792AF9BA410069740B /* Preview Content */,
 			);
@@ -65,6 +78,27 @@
 				D10BCA7A2AF9BA410069740B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D19336092AFD84D300BD74E3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D10BCA752AF9BA400069740B /* HomeView.swift */,
+				D19336072AFD819600BD74E3 /* CardView.swift */,
+				D193360D2AFD916200BD74E3 /* NameView.swift */,
+				D193360F2AFD99F500BD74E3 /* BalanceView.swift */,
+				D19336142AFDACFD00BD74E3 /* AccountDetailsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D193360A2AFD84E400BD74E3 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				D193360B2AFD84F300BD74E3 /* BankAccount.swift */,
+				D19336122AFDABF100BD74E3 /* Transactions.swift */,
+			);
+			path = Controls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +171,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D10BCA762AF9BA400069740B /* ContentView.swift in Sources */,
+				D10BCA762AF9BA400069740B /* HomeView.swift in Sources */,
+				D19336152AFDACFD00BD74E3 /* AccountDetailsView.swift in Sources */,
+				D193360C2AFD84F300BD74E3 /* BankAccount.swift in Sources */,
+				D19336132AFDABF100BD74E3 /* Transactions.swift in Sources */,
+				D193360E2AFD916200BD74E3 /* NameView.swift in Sources */,
+				D19336102AFD99F500BD74E3 /* BalanceView.swift in Sources */,
+				D19336082AFD819600BD74E3 /* CardView.swift in Sources */,
 				D10BCA742AF9BA400069740B /* Banking_UIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

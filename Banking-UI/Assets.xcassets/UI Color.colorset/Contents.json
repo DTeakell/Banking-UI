@@ -2,8 +2,8 @@
   "colors" : [
     {
       "color" : {
-        "platform" : "universal",
-        "reference" : "labelColor"
+        "platform" : "ios",
+        "reference" : "systemFillColor"
       },
       "idiom" : "universal"
     }
@@ -11,5 +11,8 @@
   "info" : {
     "author" : "xcode",
     "version" : 1
+  },
+  "properties" : {
+    "localizable" : true
   }
 }
